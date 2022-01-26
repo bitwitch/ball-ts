@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "strict": true,
+    "strictFunctionTypes": true,
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "noEmitOnError": true,
+    "outFile": "./build/main.js",
+    "sourceMap": false
+  },
+  "include": ["source/**/*"],
+  "exclude": ["node_modules"],
+  "watchOptions": {
+    "watchFile": "useFsEvents",
+    "watchDirectory": "useFsEvents",
+    "fallbackPolling": "dynamicPriority",
+    "synchronousWatchDirectory": true
+  }
+}
