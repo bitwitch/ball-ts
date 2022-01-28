@@ -4,7 +4,6 @@
     "strict": true,
     "strictFunctionTypes": true,
     "noImplicitAny": true,
-    "preserveConstEnums": true,
     "noEmitOnError": true,
     "outFile": "./build/main.js",
     "sourceMap": false
